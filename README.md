@@ -10,7 +10,7 @@ es un comparativo entre el uso de tecnologias para webGL como lo son en este cas
 Unity aunque es muy practico presenta problemas a la hora de salir de su entorno local a un pesbliegue en producción de un producto. 
 se intento comunicar Unity con un websocket, con un socketIO y con un broker MQTT, sin ningun exito en producción, parace que tiene muchas restricciones 
 o se debe configurar de una forma especifica para produción, conbinación infructuosa en mi caso. 
--> Comandos de voz para uso 
+### Comandos de voz para uso 
 * [Empezar] - Empezar juego 
 * [Arriba] - Saltar 
 * [Abajo] - Deslizar
@@ -22,7 +22,7 @@ ThreeJS por su parte, presenta un poco de dificultad a la hora de crear una esce
 sea posible. por otra parte la comunicacion Cliente servidor presento problema unicamente con la comunicacion MQTT para el Broker Mosquitto que se uso en el servidor. 
 La comunicación WebSocket y SocketIO fue un exito, logrando llegar a controlar las animaciones de un modelo 3d en una escena WebGL creada con la libreria threejs directamente con javascript.
 
--> Comandos de voz para uso
+### Comandos de voz para uso
 * [Bailar] - Animación Dance
 * [Correr] - Animación Running 
 * [Caminar] - Animación Wlaking
