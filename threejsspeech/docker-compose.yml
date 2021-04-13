@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+ 
+  socket_server2:
+    #build: .
+    image: node:14
+    ports:
+      - "3001:3001"
+      - "5001:5001"
+    container_name: socket_server2
+    working_dir: /usr/src/app
+    command: >
+      /bin/sh -c "npm install && node index.js"
+    volumes:
+      - ./:/usr/src/app
+    restart: always
+
+
+  
