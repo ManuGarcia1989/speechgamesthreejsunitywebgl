@@ -19,3 +19,26 @@ sea posible. por otra parte la comunicacion Cliente servidor presento problema u
 La comunicación WebSocket y SocketIO fue un exito, logrando llegar a controlar las animaciones de un modelo 3d en una escena WebGL creada con la libreria threejs directamente con javascript.
 
 ![image](https://user-images.githubusercontent.com/27829702/114605948-426a7a80-9c60-11eb-9115-b2d241bb22a4.png)
+
+## Technologies
+* [C#, JavaScript ] - Programming language
+* [Express-Nodejs] - Server 
+* [Git] - Code versioning
+* [Visual Studio Code, Unity] - IDE
+
+## Build and Run containers
+Run all containers
+```
+$ docker-compose up --build -d
+```
+
+# Installation
+
+
+| Requires | URL |
+| ------ | ------ |
+| ThreeJS Library   | https://github.com/mrdoob/three.js/ |
+| Unity 2019.4.22f1 | https://unity.com/es/products |
+| Git | https://git-scm.com/downloads |
+| Docker | https://docs.docker.com/engine/install/ |
+| Compose | https://docs.docker.com/compose/install/ |
