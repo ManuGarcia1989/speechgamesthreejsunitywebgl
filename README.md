@@ -37,7 +37,7 @@ La comunicación WebSocket y SocketIO fue un exito, logrando llegar a controlar 
 ## Build and Run containers
 Run all containers
 ```
-$ docker-compose up --build -d
+$ docker-compose up -d --build 
 ```
 
 # Installation
